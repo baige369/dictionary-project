@@ -5,9 +5,6 @@ export default function App() {
     <div className="App">
       <header className="App-header"></header>
       <p>Hello</p>
-      <a href="#" className="btn btn-primary">
-        Push the button
-      </a>
     </div>
   );
 }
