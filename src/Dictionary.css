@@ -1,0 +1,51 @@
+.Dictionary h2 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.Dictionary section {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0 / 10%);
+  margin: 20px auto;
+  max-width: 50%;
+  text-align: center;
+  display: block;
+  font-family: "EB Garamond", serif;
+  font-size: 18px;
+}
+
+.Dictionary input {
+  padding: 6px 4px;
+  border-radius: 6px;
+  border: 1px solid;
+  border-color: #31d2f7;
+  color: #333;
+  width: 100%;
+}
+
+.Dictionary .SearchButton {
+  color: #31d2f7;
+  border-color: #31d2f7;
+  transition: all 150ms ease-in-out;
+  font-weight: bold;
+}
+
+.Dictionary .SearchButton:hover {
+  border-color: white;
+  color: white;
+  background-color: #31d2f7;
+}
+
+.Dictionary .hint {
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+@media (max-width: 539px) {
+  .Dictionary section {
+    max-width: 90%;
+  }
+}

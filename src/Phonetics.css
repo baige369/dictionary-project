@@ -1,15 +1,27 @@
-a:link {
+.Phonetics {
+  margin: 20px 0;
+}
+
+.Phonetics a {
+  margin-right: 10px;
+}
+
+.Phonetics a:link {
+  text-decoration: none;
+}
+.Phonetics a:visited {
   text-decoration: none;
 }
 
-a:visited {
+.Phonetics a:hover {
   text-decoration: none;
 }
 
-a:hover {
+.Phonetics a:active {
   text-decoration: none;
 }
 
-a:active {
-  text-decoration: none;
+.Phonetics .text {
+  opacity: 0.5;
+  font-weight: bold;
 }

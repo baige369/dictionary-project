@@ -1,5 +1,4 @@
 import "./App.css";
-import logo from "./logo.png";
 import Dictionary from "./Dictionary";
 
 export default function App() {
@@ -7,14 +6,13 @@ export default function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
-          <img
-            src={logo}
-            alt="SheCodes logo"
-            className="App-logo img-fluid"
-          ></img>
+          <h1>Dictionary</h1>
+          <p>
+            “Dictionary: The universe in alphabetical order.” - Anatole France
+          </p>
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="rose" />
         </main>
         <footer className="App-footer">
           <small>
